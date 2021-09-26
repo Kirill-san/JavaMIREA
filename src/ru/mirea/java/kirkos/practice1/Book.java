@@ -3,18 +3,24 @@ package ru.mirea.java.kirkos.practice1;
 public class Book {
 
     private String author;
+    private String name;
     private int pages;
     private short year;
 
     //конструктор класса Book
-    public Book(String a, int i, short i1) {
+    public Book(String a, String a1, int i, short i1) {
         author = a;
+        name = a1;
         pages = i;
         year = i1;
     }
 
     public void setAuthor(String author) {
         this.author = author;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setPages(int pages) {
@@ -25,19 +31,7 @@ public class Book {
         this.year = year;
     }
 
-    public String getAuthor () {
-        return author;
-    }
-
-    public int getPages() {
-        return pages;
-    }
-
-    public short getYear() {
-        return year;
-    }
-
     public String toString(){
-        return this.author+", pages "+this.pages+", year "+this.year;
+        return "Author: "+this.author+" name: "+this.name+", pages: "+this.pages+", year: "+this.year;
     }
 }
