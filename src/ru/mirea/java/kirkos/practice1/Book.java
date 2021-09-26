@@ -15,23 +15,6 @@ public class Book {
         year = i1;
     }
 
-    //сеттеры (не используются)
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setPages(int pages) {
-        this.pages = pages;
-    }
-
-    public void setYear(short year) {
-        this.year = year;
-    }
-
     //toString
     public String toString(){
         return "Author: "+this.author+", name: "+this.name+", pages: "+this.pages+", year: "+this.year;
