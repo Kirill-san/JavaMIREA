@@ -15,6 +15,7 @@ public class Book {
         year = i1;
     }
 
+    //сеттеры (не используются)
     public void setAuthor(String author) {
         this.author = author;
     }
@@ -31,7 +32,8 @@ public class Book {
         this.year = year;
     }
 
+    //toString
     public String toString(){
-        return "Author: "+this.author+" name: "+this.name+", pages: "+this.pages+", year: "+this.year;
+        return "Author: "+this.author+", name: "+this.name+", pages: "+this.pages+", year: "+this.year;
     }
 }
