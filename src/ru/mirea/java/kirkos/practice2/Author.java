@@ -5,13 +5,14 @@ public class Author {
     private String name;
     private char gender;
 
-    //конструктор класса Book
+    //конструктор класса Author
     public Author(String a, String a1, char b) {
         email = a;
         name = a1;
         gender = b;
     }
 
+    //геттеры
     public char getGender() {
         return gender;
     }
@@ -24,10 +25,11 @@ public class Author {
         return email;
     }
 
+    //сеттер
     public void setEmail(String email) {
         this.email = email;
     }
-
+    //toString
     public String toString(){
         return this.name+" ("+this.gender+") at "+this.email;
     }
