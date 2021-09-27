@@ -1,6 +1,7 @@
 package ru.mirea.java.kirkos.practice3;
 
 public abstract class Shape {
+
     protected String color;
     protected boolean filled;
 
