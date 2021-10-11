@@ -14,7 +14,7 @@ public class TestClass extends JFrame{
     JLabel winner = new JLabel();
     JLabel lastGoal = new JLabel();
 
-    int milanGoals = 0, madrideGoals = 0; //кол-во голов
+    int milanGoals = 0, madrideGoals = 0; //количество голов
 
     //констуктор
     public TestClass(){
