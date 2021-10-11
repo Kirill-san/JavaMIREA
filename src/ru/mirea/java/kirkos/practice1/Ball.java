@@ -12,7 +12,12 @@ public class Ball {
         radius = i1;
     }
 
-    public String toString(){
-        return "Sport: "+this.sport+", weight: "+this.weight+", radius: "+this.radius;
+    @Override
+    public String toString() {
+        return "Ball{" +
+                "sport='" + sport + '\'' +
+                ", weight=" + weight +
+                ", radius=" + radius +
+                '}';
     }
 }
